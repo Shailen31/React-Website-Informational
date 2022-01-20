@@ -11,6 +11,8 @@ COPY package.json .
 RUN npm install 
 # install all node modules in current directory which is /app
 
+EXPOSE 3001
+
 COPY . . 
 # so this will copy the contents of where ever the DockerFile is (the first . (current dir of the Docker file)) to where ever the current working dir is (the second .)
 

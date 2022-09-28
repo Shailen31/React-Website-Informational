@@ -16,6 +16,7 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
+    margin-left: 20px;
   }
   
   .navbar-logo {
@@ -28,8 +29,24 @@
     display: flex;
     align-items: center;
   }
+
+  .navbar-icon {
+    color: #fff;
+    justify-self: start;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
   
   .fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+  }
+
+  .fa-yin-yang {
     margin-left: 0.5rem;
     font-size: 1.8rem;
   }

@@ -8,8 +8,8 @@ function HeroSection() {
         <div className = 'hero-container'>
             {/* <video src = "/videos/video-2.mp4" autoPlay loop muted /> */}
             {/* <img src="/images/wallpaper1.webp" alt="Wallpaper" />; */}
-            <h1>ADVENTURE AWAITS</h1>
-            <p>What are you waiting for??</p>
+            <h1>TRANSFORM YOUR LIFE</h1>
+            <p>Be your own boss.</p>
 
             <div className = "hero-btns">
                 <Button className = 'btns' buttonStyle= 'btn--outline' buttonSize='btn--large'>

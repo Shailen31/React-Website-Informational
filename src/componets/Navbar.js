@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faUmbrellaBeach, faTree } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCoffee,
+  faUmbrellaBeach,
+  faTree,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -32,9 +36,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             VARSHA DOOKIE
-            <FontAwesomeIcon icon="fa-brands fa-typo3" />
-            {/* <i className='fab fa-typo3' /> */}
-            <FontAwesomeIcon  className="navbar-icon" icon={faTree} />
+            <FontAwesomeIcon className="navbar-icon" icon={faTree} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -43,6 +45,15 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/background"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Background
               </Link>
             </li>
             <li className="nav-item">
@@ -56,25 +67,14 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/contact"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
+                Contact
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
     </>

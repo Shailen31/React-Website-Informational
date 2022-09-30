@@ -84,6 +84,18 @@ video {
     font-size: 70px;
     margin-top: -150px;
   }
+
+  .contact-iframe > iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .form-all {
+    padding-bottom: 160px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -94,6 +106,11 @@ video {
 
   .contact-container > p {
     font-size: 30px;
+  }
+
+  .contact-iframe > iframe {
+    width: 400px;
+    height: 250px;
   }
 
   .btn-mobile {

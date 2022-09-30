@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
+import { Button } from "../button/Button";
 import "./HeroSection.css";
-import "./Navbar.css";
-import "../App.css";
-import Contact from "./pages/Contact";
+import "../navbar/Navbar.css";
+import "../../App.css";
+import Contact from "../pages/Contact";
 
 function HeroSection() {
   return (

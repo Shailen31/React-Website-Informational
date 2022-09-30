@@ -1,6 +1,6 @@
 import "../../App.css";
 import React, { Component } from "react";
-import ServicesSection from "../ServicesSection";
+import ServicesSection from "../servicesSection/ServicesSection";
 
 function Services() {
   return <ServicesSection />;

@@ -1,5 +1,5 @@
 import "../../App.css";
-import ContactSection from "../ContactSection";
+import ContactSection from "../contactSection/ContactSection";
 import React, { Component } from "react";
 
 function Contact() {

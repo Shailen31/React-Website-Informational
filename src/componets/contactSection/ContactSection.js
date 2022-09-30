@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactSection.css";
-import Footer from "./FooterSection";
-import "../App.css";
+import Footer from "../footerSection/FooterSection";
+import "../../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
